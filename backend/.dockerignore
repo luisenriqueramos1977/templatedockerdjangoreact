@@ -1,0 +1,15 @@
+# Exclude socket files
+*.sock
+
+# Exclude other unnecessary files
+
+
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.git
+.env
+*.sqlite3
+*.swp
+*.un~
