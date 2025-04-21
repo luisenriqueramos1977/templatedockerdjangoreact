@@ -1,0 +1,26 @@
+# Ignore environment variables
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore database files
+*.sqlite3
+# PostgreSQL
+backend/project/postgres_data/
+**/postgres_data/*
+!**/postgres_data/.gitkeep  # Optional: keep empty directory structure
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+*.log
